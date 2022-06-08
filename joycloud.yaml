@@ -1,0 +1,10 @@
+stages:
+  - pipeline: 流水线-1
+    steps:
+      - name: test
+        module: docker
+        image: openjdk
+        command:
+          - javac Test.java
+          - java Test
+          - ls
