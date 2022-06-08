@@ -6,5 +6,5 @@ stages:
         image: openjdk
         command:
           - javac Test.java
-          - java Test
           - ls
+          - java Test.class
