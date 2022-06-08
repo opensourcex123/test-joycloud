@@ -5,6 +5,6 @@ stages:
         module: docker
         image: openjdk
         command:
-          - javac src/Test.java
+          - javac src.Test.java
           - ls src/
           - java src/Test.class
